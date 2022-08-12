@@ -21,7 +21,20 @@ input[type=submit]{
 }
 
 body {
-    background-color: Black;
-    color: White;
     padding: 20px;
+}
+
+.calories {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+.calories-content {
+    width: 100%;
+    background-color: cadetblue;
+    color: White;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
