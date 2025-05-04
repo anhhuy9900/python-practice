@@ -23,6 +23,11 @@ Objects: User, Seat, Card, Ticket
         id
         user
         price
-        seat
+        seat_number
         to_pdf(path)
 
+Note:
+- Class User book ticker
+- Class Ticket produce file pdf to user
+- Class Card to check pucharse
+- class Seat to set seat for user
